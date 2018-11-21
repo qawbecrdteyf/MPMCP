@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>       
 
 
-SoftwareSerial espSerial(3, 4);   //Pin 2 and 3 act as RX and TX. Connected to TX and RX of ESP8266 respectively     
+SoftwareSerial espSerial(3, 4);   //Pin 3 and 4 act as RX and TX. Connected to TX and RX of ESP8266 respectively     
 SoftwareSerial blu(12,13);
 
 
@@ -24,7 +24,7 @@ int sendVal;
 void setup()
 {
   Serial.begin(9600);
-  espSerial.begin(9600);//115200
+  espSerial.begin(9600);//default is 115200...baud rate is set to 9600 by AT+UART_DEF=9600,8,1,0,0
   blu.begin(9600);
   pinMode(8, OUTPUT);
   pinMode(9, OUTPUT);
