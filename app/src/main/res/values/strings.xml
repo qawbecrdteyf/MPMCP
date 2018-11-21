@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MPMCP</string>
+    <string name="title_activity_selector">SelectorActivity</string>
+    <string name="password">1234</string>
+    <string name="PORT_ID">portid</string>
+    <string name="DEVICE_NAME">HC-05</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="title_activity_flip">Flip</string>
+    <string name="title_activity_flip2">Flip2</string>
+</resources>
